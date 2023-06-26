@@ -2,3 +2,5 @@ def palindrom(slovo):
     if slovo == slovo[::-1]:
         return True
     return False
+print(palindrom('лепсспел'))
+print(palindrom('helloworld'))
